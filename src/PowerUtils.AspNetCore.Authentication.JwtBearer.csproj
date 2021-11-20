@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Assembly and projecto details -->
+    <!-- https://docs.microsoft.com/en-us/dotnet/standard/frameworks -->
+    <TargetFrameworks>net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
+
+    <RootNamespace>PowerUtils.AspNetCore.Authentication.JwtBearer</RootNamespace>
+    <AssemblyName>PowerUtils.AspNetCore.Authentication.JwtBearer</AssemblyName>
+
+
+    <!-- Package details -->
+    <PackageId>PowerUtils.AspNetCore.Authentication.JwtBearer</PackageId>
+    <title>PowerUtils.AspNetCore.Authentication.JwtBearer</title>
+    <Product>PowerUtils.AspNetCore.Authentication.JwtBearer</Product>
+    <Version>1.0.0</Version>
+
+    <Authors>Nelson Nobre</Authors>
+    <Company>TechNobre</Company>
+
+    <License>MIT</License>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>Copyright © 2021 by TechNobre</Copyright>
+
+    <Description>Utils, helpers, extensions and attributes to work with JWT authentication</Description>
+    <PackageReleaseNotes>
+      - Kick start project
+    </PackageReleaseNotes>
+    <Summary>Utils, helpers, extensions and attributes to work with JWT authentication</Summary>
+    <PackageTags>PowerUtils;Utils;Helpers;AspNetCore;Authentication;JwtBearer;Web</PackageTags>
+    <RepositoryUrl>https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer</PackageProjectUrl>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+
+    <PackageOutputPath>bin\</PackageOutputPath>
+  </PropertyGroup>
+
+
+  <!-- DOCUMENTATION -->
+  <PropertyGroup>
+    <DocumentationFile>bin\PowerUtils.AspNetCore.Authentication.JwtBearer.xml</DocumentationFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn> <!-- Prevent XML documentation warnings -->
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>RELEASE;TRACE</DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="..\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp3.1' ">
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.21" />
+  </ItemGroup>
+
+
+</Project>
