@@ -8,8 +8,6 @@ namespace PowerUtils.AspNetCore.Authentication.JwtBearer.Attributes
         public const string AUTHENTICATION_SCHEMES = JwtBearerDefaults.AuthenticationScheme;
 
         public JWTAuthentication()
-        {
-            AuthenticationSchemes = AUTHENTICATION_SCHEMES;
-        }
+            => AuthenticationSchemes = AUTHENTICATION_SCHEMES;
     }
 }
