@@ -1,5 +1,8 @@
 # PowerUtils.AspNetCore.Authentication.JwtBearer
-Utils, helpers, extensions and attributes to work with JWT authentication
+
+![Logo](https://raw.githubusercontent.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/main/assets/logo/logo_128x128.png)
+
+***Utils, helpers, extensions and attributes to work with JWT authentication***
 
 ![CI](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/actions/workflows/main.yml/badge.svg)
 [![NuGet](https://img.shields.io/nuget/v/PowerUtils.AspNetCore.Authentication.JwtBearer.svg)](https://www.nuget.org/packages/PowerUtils.AspNetCore.Authentication.JwtBearer)
