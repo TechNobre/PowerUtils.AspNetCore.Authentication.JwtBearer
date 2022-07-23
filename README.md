@@ -4,35 +4,39 @@
 
 ***Utils, helpers, extensions and attributes to work with JWT authentication***
 
-![CI](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/actions/workflows/main.yml/badge.svg)
 [![NuGet](https://img.shields.io/nuget/v/PowerUtils.AspNetCore.Authentication.JwtBearer.svg)](https://www.nuget.org/packages/PowerUtils.AspNetCore.Authentication.JwtBearer)
 [![Nuget](https://img.shields.io/nuget/dt/PowerUtils.AspNetCore.Authentication.JwtBearer.svg)](https://www.nuget.org/packages/PowerUtils.AspNetCore.Authentication.JwtBearer)
+[![License: MIT](https://img.shields.io/github/license/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer.svg)](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/blob/main/LICENSE)
+
+
+- [Support](#support-to)
+- [Dependencies](#dependencies)
+- [How to use](#how-to-use)
+  - [Installation](#Installation)
+  - [Attributes](#Attributes)
+    - [JWTAuthentication](#JWTAuthentication)
+- [Contribution](#contribution)
+- [License](./LICENSE)
+- [Changelog](./CHANGELOG.md)
 
 
 
-
-## Support to
-- .NET 3.1, .NET 5.0 and .NET 6.0
-
-
-
-
-## Features
-
-- [Installation](#Installation)
-- [Attributes](#Attributes)
-  - [JWTAuthentication](#JWTAuthentication)
+## Support to <a name="support-to"></a>
+- .NET 6.0
+- .NET 5.0
+- .NET 3.1
 
 
-## Documentation
 
-### Dependencies
+## Dependencies <a name="dependencies"></a>
 
 - Microsoft.AspNetCore.Authentication.JwtBearer [NuGet](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/)
 
-### How to use
 
-#### Install NuGet package <a name="Installation"></a>
+
+## How to use <a name="how-to-use"></a>
+
+### Install NuGet package <a name="Installation"></a>
 This package is available through Nuget Packages: https://www.nuget.org/packages/PowerUtils.AspNetCore.Authentication.JwtBearer
 
 **Nuget**
@@ -78,22 +82,6 @@ public class TestController : ControllerBase
 
 
 
-## Contribution
+## Contribution <a name="contribution"></a>
 
-*Help me to help others*
-
-
-
-
-## LICENSE
-
-[MIT](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/blob/main/LICENSE)
-
-
-
-
-## Release Notes
-
-
-### v1.0.0 - 2021/11/20
-- Kick start project
+If you have any questions, comments, or suggestions, please open an [issue](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/issues/new/choose) or create a [pull request](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/compare)
