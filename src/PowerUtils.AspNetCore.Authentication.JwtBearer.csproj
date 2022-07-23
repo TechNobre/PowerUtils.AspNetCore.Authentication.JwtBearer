@@ -12,7 +12,7 @@
     <RootNamespace>PowerUtils.AspNetCore.Authentication.JwtBearer</RootNamespace>
     <AssemblyName>PowerUtils.AspNetCore.Authentication.JwtBearer</AssemblyName>
     
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
 
     <PackageOutputPath>bin\</PackageOutputPath>
   </PropertyGroup>
