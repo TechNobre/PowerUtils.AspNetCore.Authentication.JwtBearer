@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/compare/v1.1.0...v1.2.0) (2022-11-09)
+
+
+### Features
+
+* Added support to .NET 7.0 ([09c4fd3](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/commit/09c4fd3bd6ee29c294250b83f64c2a1640a8cf12))
+
 # [1.1.0](https://github.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/compare/v1.0.0...v1.1.0) (2022-07-23)
 
 
