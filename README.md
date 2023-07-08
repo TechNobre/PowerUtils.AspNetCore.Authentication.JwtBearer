@@ -1,5 +1,9 @@
 # PowerUtils.AspNetCore.Authentication.JwtBearer
 
+# :warning: DEPRECATED
+
+This package has been discontinued because it never evolved, and the code present in this package does not justify its continuation. It is preferable to implement this code directly in the project if necessary. The package will be completely removed after 2024/01/08.
+
 ![Logo](https://raw.githubusercontent.com/TechNobre/PowerUtils.AspNetCore.Authentication.JwtBearer/main/assets/logo/logo_128x128.png)
 
 ***Utils, helpers, extensions and attributes to work with JWT authentication***
